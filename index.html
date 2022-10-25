@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DieSHOP</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/home/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/spinnerload.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/home.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/productsoftheweek.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/upcomingcollection.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/categoryssection.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/ordernow.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/informationsection.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/brandssection.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/41faca984e.js" crossorigin="anonymous"></script> 
+
+</head>
+<body>
+
+    <div class="loadPage">
+        <img src="templates/DL.png" alt="logo Diego">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="nav_container">
+
+        <div class="nav_container_header">
+            <i class="fa-solid fa-bars"></i>
+            <h2 class="nav_container_header-h2"><a class="nav_container_header-h2-a" href="index.html">DieSHOP</a></h2>
+            <a href="./pages/shop/cart.html" class="cartClass"><i class="fa-solid fa-cart-shopping cartMobile"></i></a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <nav class="nav_container_principal">
+            <ul class="nav_container_principal_list">
+                <li class="nav_container_list_item">
+                    <div class="nav_container_list_item_div">
+                        <h3 class="item-title">Home</h3>
+                        <i class="fa-solid fa-chevron-down downArrow"></i>
+                    </div>
+    
+                    <div class="nav_container_list_item_sections">
+                        <a class="scrollLink" href="#up">UP!</a>
+                        <a class="scrollLink" href="#productsoftheweek">Products of the week</a>
+                        <a class="scrollLink" href="#upcomingcollection">Upcoming collection</a>
+                        <a class="scrollLink" href="#explore">Explore</a>
+                        <a class="scrollLink" href="#ordernow">Order now</a>
+                        <a class="scrollLink" href="#conditions">Conditions</a>
+                        <a class="scrollLink" href="#brands">Brands</a>
+                    </div>
+                </li>
+    
+                <li class="nav_container_list_item">
+                    <div class="nav_container_list_item_div">
+                        <h3 class="item-title">Information</h3>
+                        <i class="fa-solid fa-chevron-down downArrow"></i>
+                    </div>
+    
+                    <div class="nav_container_list_item_sections">
+                        <a href="./pages/information/aboutus.html">About us</a>
+                        <a href="./pages/information/comingsoon.html">Coming soon</a>
+                        <a href="./pages/information/contactus.html">Contact us</a>
+                        <a href="./pages/information/faqpage.html">Faq page</a>
+                        <a href="./pages/information/meettheteam.html">Meet the team</a>
+                        <a href="./pages/information/getthevoucher.html">Get the voucher</a>
+                    </div>
+                </li>
+    
+                <li class="nav_container_list_item">
+                    <div class="nav_container_list_item_div">
+                        <h3 class="item-title">Shop</h3>
+                        <i class="fa-solid fa-chevron-down downArrow"></i>
+                    </div>
+    
+                    <div class="nav_container_list_item_sections">
+                        <a href="./pages/shop/shop.html">Principal shop</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="home_container section" id="up">
+
+            <article class="home_imgs_container">
+    
+                <div class="home_img_container show">
+                    <img src="templates/electronics.png" alt="img" class="homeImg">
+                    <div class="home_img_container_text electronics showText">
+                        <h2>Get updated</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, architecto!</p>
+                        <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+    
+                <div class="home_img_container">
+                    <img src="templates/jewellery.png" alt="img" class="homeImg">
+                    <div class="home_img_container_text jewellery">
+                        <h2>A bit of elegance</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, architecto!</p>
+                        <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+    
+                <div class="home_img_container ">
+                    <img src="templates/menclothes.png" alt="img" class="homeImg">
+    
+                    <div class="home_img_container_text menc">
+                        <h2>The latest fashion for men</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, architecto!</p>
+                        <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+    
+                </div>
+    
+                <div class="home_img_container">
+                    <img src="templates/womanclothes.png" alt="img" class="homeImg">
+    
+                    <div class="home_img_container_text womanc">
+                        <h2>The latest fashion for woman</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, architecto!</p>
+                        <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+    
+                <div class="home_btns_container">
+                    <button class="btnHomeImg" type="button" id="1"></button>
+                    <button class="btnHomeImg" type="button" id="2"></button>
+                    <button class="btnHomeImg" type="button" id="3"></button>
+                    <button class="btnHomeImg" type="button" id="4"></button>
+                </div>
+    
+            </article>
+    
+        </section>
+
+        <section class="productsoftheweek_container section" id="productsoftheweek">
+
+            <div class="productsoftheweek_container_header">
+                <h3>Products of the week</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eum labore aliquam consectetur iste nam?</p>
+            </div>
+
+            <article class="productsoftheweek_container_article">
+
+
+
+            </article>
+
+        </section>
+
+        <section class="upcoming_container section" id="upcomingcollection">
+            <article class="upcoming_container_article">
+                <h2>Upcoming collection</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ea recusandae repellat sed labore ex molestiae delectus obcaecati hic accusantium!</p>
+                <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+            </article>
+        </section>
+
+        <section class="categorys_container section" id="explore">
+            <article class="categorys_container_article">
+                <div class="category_container_article_title">
+                    <h2>Electronic</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ea recusandae repellat sed labore ex molestiae delectus obcaecati hic accusantium!</p>
+                    <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+
+                <div class="category_container_article_img">
+                    <img src="https://www.gizlogic.com/wp-content/uploads/2019/04/Sennheiser-HD-400S-1.jpg" alt="" class="intersectionOne">
+                </div>
+            </article>
+
+            <article class="categorys_container_article">
+                <div class="category_container_article_title orderCategoryTitle">
+                    <h2>Jewellery</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ea recusandae repellat sed labore ex molestiae delectus obcaecati hic accusantium!</p>
+                    <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+
+                <div class="category_container_article_img orderCategoryImg">
+                    <img src="https://www.dhresource.com/0x0/f2/albu/g13/M00/B4/45/rBVakl8_f5CABLvNAATccxw9YQM010.jpg" alt="" class="intersectionTwo">
+                </div>
+            </article>
+
+            <article class="categorys_container_article">
+                <div class="category_container_article_title">
+                    <h2>Men Clothes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ea recusandae repellat sed labore ex molestiae delectus obcaecati hic accusantium!</p>
+                    <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+
+                <div class="category_container_article_img">
+                    <img src="https://www.pngitem.com/pimgs/m/4-41035_transparent-men-fashion-png-casual-style-men-png.png" alt="" class="intersectionThree">
+                </div>
+            </article>
+
+            <article class="categorys_container_article">
+                <div class="category_container_article_title orderCategoryTitle">
+                    <h2>Woman Clothes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ea recusandae repellat sed labore ex molestiae delectus obcaecati hic accusantium!</p>
+                    <button type="button">View more <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+
+                <div class="category_container_article_img orderCategoryImg">
+                    <img src="https://cdn-img.prettylittlething.com/6/f/4/0/6f4064189d41fe877f147ffe8b83d94ea78e7812_cms7185_1.jpg?imwidth=400" alt="" class="intersectionFour">
+                </div>
+            </article>
+        </section>
+
+        <section class="ordernow_container section" id="ordernow">
+            <article class="ordernow_container_article">
+                <h2>Order now for an express delivery in 24h!</h2>
+                <button type="button">Order now <i class="fa-solid fa-chevron-right"></i></button>
+            </article>
+        </section>
+
+        <section class="information_container section" id="conditions">
+            <article class="information_container_article">
+                <div class="information_container_article_box">
+                    <div class="information_container_article_box_header">
+                        <i class="fa-brands fa-shopify"></i>
+                        <h3>Shop online</h3>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quisquam.</p>
+                </div>
+
+                <div class="information_container_article_box">
+                    <div class="information_container_article_box_header">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h3>Free shipping</h3>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quisquam.</p>
+                </div>
+
+                <div class="information_container_article_box">
+                    <div class="information_container_article_box_header">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3>Return policy</h3>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quisquam.</p>
+                </div>
+
+                <div class="information_container_article_box">
+                    <div class="information_container_article_box_header">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3>Payment methods</h3>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quisquam.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="brands_container section" id="brands">
+            <article class="brands_container_article">
+                <ul class="brands_container_article_list">
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png" alt="logo"></li>
+                    <li><img src="https://i.pinimg.com/originals/a1/5c/34/a15c34b095a9dc0427869f9a37341e4a.jpg" alt="logo"></li>
+                    <li><img src="https://img.freepik.com/free-vector/jewelry-logo-design-template-ring-icon_18099-968.jpg" alt="logo"></li>
+                    <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/c6e5293e-cae6-4376-b190-5e9359103804.__CR0,0,1200,360_PT0_SX600_V1___.jpg" alt="logo"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acer_Logo.svg/2560px-Acer_Logo.svg.png" alt="logo"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png" alt="logo"></li>
+                    <li><img src="https://i.pinimg.com/originals/a1/5c/34/a15c34b095a9dc0427869f9a37341e4a.jpg" alt="logo"></li>
+                    <li><img src="https://img.freepik.com/free-vector/jewelry-logo-design-template-ring-icon_18099-968.jpg" alt="logo"></li>
+                    <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/c6e5293e-cae6-4376-b190-5e9359103804.__CR0,0,1200,360_PT0_SX600_V1___.jpg" alt="logo"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acer_Logo.svg/2560px-Acer_Logo.svg.png" alt="logo"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png" alt="logo"></li>
+                    <li><img src="https://i.pinimg.com/originals/a1/5c/34/a15c34b095a9dc0427869f9a37341e4a.jpg" alt="logo"></li>
+                    <li><img src="https://img.freepik.com/free-vector/jewelry-logo-design-template-ring-icon_18099-968.jpg" alt="logo"></li>
+                    <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/c6e5293e-cae6-4376-b190-5e9359103804.__CR0,0,1200,360_PT0_SX600_V1___.jpg" alt="logo"></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acer_Logo.svg/2560px-Acer_Logo.svg.png" alt="logo"></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer_container">
+        <div class="footer_container_firstBox">
+
+            <div class="footer_container_boxes">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et similique, consectetur est nulla deserunt voluptas sunt sed natus magni impedit!</p>
+            </div>
+    
+            <div class="footer_container_boxes">
+                <h4>Useful links</h4>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+            </div>
+    
+            <div class="footer_container_boxes">
+                <h4>Networks</h4>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+                <a href="">Lorem, ipsum.</a>
+            </div>
+    
+            <div class="footer_container_boxes">
+                <h4>Call center</h4>
+                <p>Monday to Friday: 9-20</p>
+                <p>Saturday to Sunday: closed</p>
+                <p>arredo@example.com</p>
+                <p>+1 333 555</p>
+            </div>
+        </div>
+
+        <div class="footer_container_secondBox">
+
+            <div class="footer_container_secondBox_list">
+                <a href="./index.html">Home</a>
+                <a href="./pages/information/aboutus.html">Information</a>
+                <a href="./pages/shop/shop.html">Shop</a>
+            </div>
+
+            <p>Diego Libonati E-commerce APP</p>
+        </div>
+    </footer>
+
+    <script  src="./assets/home/navConfig.js"></script>
+    <script  src="./assets/home/mediaQueryResize.js"></script>
+    <script  src="./assets/home/homeConfig.js"></script>
+    <script type="module" src="./assets/home/productsOfTheWeek.js"></script>
+    <script  src="./assets/home/getInformationOfApi.js"></script>
+    <script  src="./assets/home/intersectionObserver.js"></script>
+    <script  src="./assets/home/brandsGrab.js"></script>
+    <script  src="./assets/home/scrollPage.js"></script>
+
+</body>
+</html>
+
