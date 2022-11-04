@@ -1,10 +1,17 @@
 # E-Commerce-Page
 
-## Installation
+## Getting Started
 
-1. Clone the repository with `git clone "repository link"`
-2. Install the extension: `Live Server` [OPTIONAL]
-3. Execute live server to visualize in real time index.html or open index.html in your favorite navigator.
+1. Clone the repository
+2. Join to the correct path of the clone
+3. Install LiveServer extension from Visual Studio Code [OPTIONAL]
+4. Click in "Go Live" from LiveServer extension
+
+---
+
+1. Clone the repository
+2. Join to the correct path of the clone
+3. Open index.html in your favorite navigator
 
 ## Description
 
