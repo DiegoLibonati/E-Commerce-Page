@@ -48,11 +48,8 @@ Link: `https://fakestoreapi.com/`
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=E-Commerce%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=E-Commerce%20Page`
 
 ## Video
 
-
 https://user-images.githubusercontent.com/99032604/199867886-8e271118-524f-4b8e-b0b3-78d1324aa6c7.mp4
-
-
